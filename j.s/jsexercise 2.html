@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML= Math.max(5,10,53,6);
+    </script>
+
+<p id="demo1"></p>
+<script>
+      document.getElementById("demo1").innerHTML= Math.min(5,10,53,6);
+    </script>
+    <p id="demo2"></p>
+    <p id="demo3.2"></p>
+    <p id="demo3.3"></p>
+
+    <script type="text/javascript">
+    var fruits = ["Apple","mango","orange","grapes","Banana"];
+    document.getElementById("demo2").innerHTML= fruits[2];
+    document.getElementById("demo3.2").innerHTML= fruits.length;
+    fruits.reverse()
+document.getElementById("demo3.3").innerHTML= fruits;
+    </script>
+    <p id="demo4"></p>
+    <script type="text/javascript">
+      var num = [4,1,8,3,9,12];
+      num.sort(function(a,b){return a - b});
+      document.getElementById("demo4").innerHTML= num;
+    </script>
+    <p id="demo5.0"></p>
+    <p id="demo5.1"></p>
+    <p id="demo5.2"></p>
+    <p id="demo5.3"></p>
+    <script type="text/javascript">
+    var foods = ["rice", "pizza", "sandwich", "rolls"];
+      document.getElementById("demo5.0").innerHTML= foods;
+    foods.pop();
+        document.getElementById("demo5.1").innerHTML= foods;
+        foods.push("cake");
+        document.getElementById("demo5.2").innerHTML= foods;
+        foods.shift();
+        document.getElementById("demo5.3").innerHTML= foods;
+
+    </script>
+    <p id="demo6.1"></p>
+    <p id="demo6.2"></p>
+    <script type="text/javascript">
+    var fruits = ["Apple"];
+    fruits.unshift("Pineapple","Lemon")
+      document.getElementById("demo6.1").innerHTML= fruits;
+      fruits.push("orange","peach");
+        document.getElementById("demo6.2").innerHTML= fruits;
+    </script>
+  </body>
+</html>

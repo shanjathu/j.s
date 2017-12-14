@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h4> Question 1</h4>
+    <p>Click calculate  button to display the square root of 25.</p>
+    <button onclick="myFunction()">Calculate</button>
+    <p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = Math.sqrt(25);
+}
+</script>
+
+
+
+
+<p id="demo"></p>
+<p id="multiNumb"></p>
+<p id="subtractNumb"></p>
+<p id="divideNumb"></p>
+
+<script>
+var numb1 = 20;
+var numb2 = 10;
+var addNum = numb1+numb2;
+var multiNum = numb1*numb2;
+var subtractNumb = numb1-numb2;
+var divideNumb = numb1/numb2;
+document.getElementById("demo").innerHTML = "The adition of the two number is " + addNum;
+document.getElementById("multiNumb").innerHTML = "The multipilication of two number is " + multiNum;
+document.getElementById("subtractNumb").innerHTML = "The subtraction of two number is " + subtractNumb;
+document.getElementById("divideNumb").innerHTML = "The division of two number is " + divideNumb;
+</script>
+<script>
+alert( "hello world")
+</script>
+<script>
+ function volumeOfCubid(b,w,h){
+   return b*w*h
+   document.getElementById("a").innerHTML =volumeOfcubid(100)
+
+ }
+</script>
+<p id="a"></p>
+<p id="b"></p>
+<p id="c"></p>
+<p id="d"></p>
+<p id="e"></p>
+<p id="f"></p>
+
+<script>
+var person={ firstname:"Nimal",lastname:"Raj",age:15, city:"kandy"}
+  document.getElementById("b").innerHTML ="My Name is"+""+person.firstname+" "+person.lastname+"."+"I'm"+person.age+" "+"Years"+" "+"old"+"I live in"+" "+person.city+".";
+</script>
+<script>
+var course={ name:"BIT",fees:"150,000",date:"12.06.2018", center:"Our Office"}
+  document.getElementById("c").innerHTML ="course Name-"+" "+course.name;
+  document.getElementById("d").innerHTML ="course Fees-"+" "+course.fees;
+  document.getElementById("e").innerHTML ="Start Date-"+" "+course.date;
+  document.getElementById("f").innerHTML ="Center-"+" "+course.center;
+</script>
+  </body>
+</html>
